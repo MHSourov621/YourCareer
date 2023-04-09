@@ -1,0 +1,32 @@
+.header-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-name{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.link-div a{
+    text-decoration: none;
+    color: black;
+    margin-right: 40px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.header-btn {
+    width: 140px;
+    height: 55px;
+}
+
+.btn {
+    background: linear-gradient(90deg, #7E90FE 0%, #9873FF 100%);
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+}
