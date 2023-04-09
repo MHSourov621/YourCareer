@@ -1,0 +1,29 @@
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-details{
+    width: 500px;
+}
+
+.banner-title{
+    font-size: 65px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.banner-title>span{
+    color: #7E90FE;
+}
+
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.banner-btn{
+    width: 150px;
+    height: 55px;
+}
