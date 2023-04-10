@@ -1,0 +1,23 @@
+.category-card-container {
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.05) 0%, rgba(152, 115, 255, 0.05) 100%);
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.category-logo {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 0px;
+}
+
+.category-card-container>h4 {
+    font-size: 18px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.category-card-container>p {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 0;
+}

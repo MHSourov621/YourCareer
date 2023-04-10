@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "name" : "Account & Finance",
+        "logo" : "https://img.freepik.com/free-vector/gradient-accounting-logo-template_23-2148867917.jpg?w=826&t=st=1681105212~exp=1681105812~hmac=1cdb4496bdba8ef938d3c8c292ffcf2d95a3c3b5b7593fb6678784fe39765d2c",
+        "available_jobs" : 300 
+    },
+    {
+        "id" : 2,
+        "name" : "Creative Design",
+        "logo" : "https://img.freepik.com/free-vector/bulb-icon_1025-791.jpg?w=826&t=st=1681104983~exp=1681105583~hmac=b9a0d5799dde8634866cf88672b07c88ebd96c0276c39125d77f0352d595b78f",
+        "available_jobs" : 260 
+    },
+    {
+        "id" : 3,
+        "name" : "Marketing & Sales",
+        "logo" : "https://img.freepik.com/free-vector/marketing-logo-template-with-arrow_23-2149105274.jpg?w=826&t=st=1681105072~exp=1681105672~hmac=7fac2b43f4247d44d6f309266207a2974a64d3dfe2bb6445e67518c697f5cccf",
+        "available_jobs" : 180 
+    },
+    {
+        "id" : 4,
+        "name" : "Engineering Job",
+        "logo" : "https://img.freepik.com/free-vector/illustration-gear-doodle-icon_53876-5596.jpg?w=826&t=st=1681105122~exp=1681105722~hmac=c7c6fdd1b178db716e5e0b17950d29828ebf9a5f864d2e4aae6eb76643ad3340",
+        "available_jobs" : 240 
+    }
+]
