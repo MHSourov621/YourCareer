@@ -11,7 +11,7 @@ const Category = () => {
     }, [])
     return (
         <div>
-            <div className='category-title'>
+            <div className='section-title'>
                 <h2>Job Category List</h2>
                 <p>Explore thousands of job opportunities with all the information you need. Its your future</p>
             </div>
