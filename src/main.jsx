@@ -10,17 +10,22 @@ import Home from './component/Home/Home';
 import Header from './component/Header/Header';
 import Statistics from './component/Statistics/Statistics';
 import Main from './component/Main/Main';
+import Details from './component/Details/Details';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
-    
     children : [
       {
         path : "/",
         element : <Main></Main>,
         loader : () => fetch('jobs.json'),
+      },
+      {
+        path : "/job/:id",
+        element : <Details></Details>,
+        loader : () => fetch('jobs.json')
       },
       {
         path : "/statistics",

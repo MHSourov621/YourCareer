@@ -1,0 +1,48 @@
+.details-container{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+}
+
+.details-info p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.details-info p span{
+    font-size: 14px;
+    font-weight: 800;
+    color: black;
+}
+
+.details-contact{
+    background: linear-gradient(90deg, rgba(126, 144, 254, 0.1) 0%, rgba(152, 115, 255, 0.1) 100%);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.details-contact h3{
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #7E90FE;
+}
+
+.details-contact p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+}
+
+.details-contact p span{
+    font-weight: 800;
+    color: black;
+}
+
+.apply-btn{
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+}
