@@ -17,30 +17,34 @@ const Details = () => {
     }
 
     return (
-        <div className='details-container'>
-            <div className='details-info'>
-                <p><span>Job Description:</span> {Description}</p>
-                <p><span>Job Responsibility:</span> {Responsibility}</p>
-                <p><span>Educational Requirements:</span></p>
-                <p>{Education}</p>
-                <p><span>Experiences:</span></p>
-                <p>{Experiences}</p>
+        <>
+            <div className='applied-banner'>
+                <h2>Job Details</h2>
             </div>
-            <div>
-                <div className='details-contact'>
-                    <h3>Job Details</h3>
-                    <p><span>Salary: </span>{Salary} Per Month</p>
-                    <p><span>Job Title: </span> {Job_title}</p>
-
-                    <h3>Contact Information</h3>
-                    <p><span>Phone: </span>{phone}</p>
-                    <p><span>Email: </span>{email}</p>
-                    <p><span>Address: </span>{Location}</p>
+            <div className='details-container'>
+                <div className='details-info'>
+                    <p><span>Job Description:</span> {Description}</p>
+                    <p><span>Job Responsibility:</span> {Responsibility}</p>
+                    <p><span>Educational Requirements:</span></p>
+                    <p>{Education}</p>
+                    <p><span>Experiences:</span></p>
+                    <p>{Experiences}</p>
                 </div>
-                <button onClick={() => handleAddTODb(job.id)} className='btn apply-btn'>Apply Now</button>
-            </div>
+                <div>
+                    <div className='details-contact'>
+                        <h3>Job Details</h3>
+                        <p><span>Salary: </span>{Salary} Per Month</p>
+                        <p><span>Job Title: </span> {Job_title}</p>
 
-        </div>
+                        <h3>Contact Information</h3>
+                        <p><span>Phone: </span>{phone}</p>
+                        <p><span>Email: </span>{email}</p>
+                        <p><span>Address: </span>{Location}</p>
+                    </div>
+                    <button onClick={() => handleAddTODb(job.id)} className='btn apply-btn'>Apply Now</button>
+                </div>
+            </div>
+        </>
     );
 };
 
