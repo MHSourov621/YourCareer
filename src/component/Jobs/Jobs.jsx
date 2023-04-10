@@ -12,7 +12,7 @@ const Jobs = ({ jobs }) => {
             </div>
             <div className='jobs-container'>
                 {
-                    jobs && jobs.map(job => <Job
+                    jobs.map(job => <Job
                         key={job.id}
                         job={job}
                     ></Job>)

@@ -46,6 +46,11 @@
     margin-bottom: 15px;
 }
 
+.location-container p>span{
+    font-weight: 800;
+    color: black;
+}
+
 .location,
 .salary {
     font-size: 16px;

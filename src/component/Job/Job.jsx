@@ -14,7 +14,7 @@ const Job = ({job}) => {
                 <p className='job-type'>{time}</p>
             </div>
             <div className='location-container'>
-                <p className='location'>Location: Dhaka, Bangladesh</p>
+                <p className='location'><span>Location:</span> Dhaka, Bangladesh</p>
                 <p className='salary'>$ salary: {Salary}</p>
             </div>
             <Link to={`/job/${id}`}>

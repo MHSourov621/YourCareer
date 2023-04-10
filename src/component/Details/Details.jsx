@@ -1,15 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
 import "./Details.css";
+import { addToDb } from '../../utilities/fakedb';
 
 const Details = () => {
     const jobs = useLoaderData();
     let { id } = useParams();
 
-    const job = jobs && jobs.find(job => job.id == id);
-    console.log(job);
+    const job = jobs.find(job => job.id == id);
+    // console.log(job);
     const { Job_title, Salary, Location, Description, Responsibility, Education, Experiences, phone, email }
         = job;
+
+    const handleAddTODb = id => {
+        addToDb(id)
+    }
 
     return (
         <div className='details-container'>
@@ -32,7 +37,7 @@ const Details = () => {
                     <p><span>Email: </span>{email}</p>
                     <p><span>Address: </span>{Location}</p>
                 </div>
-                <button className='btn apply-btn'>Apply Now</button>
+                <button onClick={() => handleAddTODb(job.id)} className='btn apply-btn'>Apply Now</button>
             </div>
 
         </div>
