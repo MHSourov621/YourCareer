@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Job from '../Job/Job';
 import "./Jobs.css"
 
 const Jobs = ({ jobs }) => {
-
+    
     return (
         <div>
             <div className='section-title'>
@@ -18,6 +18,7 @@ const Jobs = ({ jobs }) => {
                     ></Job>)
                 }
             </div>
+            <button className='btn'>Sea all jobs</button>
         </div>
     );
 };

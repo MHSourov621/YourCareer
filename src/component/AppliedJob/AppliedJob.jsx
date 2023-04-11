@@ -15,7 +15,7 @@ const AppliedJob = () => {
         }
     }
 
-    console.log(selectedJob);
+    // console.log(selectedJob);
     return (
         <div>
             <div className='applied-banner'>
