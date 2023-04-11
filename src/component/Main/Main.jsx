@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Banner from '../Banner/Banner';
 import Category from '../Category/Category';
 import Jobs from '../Jobs/Jobs';

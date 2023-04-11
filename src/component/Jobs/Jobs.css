@@ -1,5 +1,20 @@
-.jobs-container{
+.jobs-container{ 
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
+}
+.seeAll-btn{
+    width: 120px;
+    height: 50px;
+}
+
+.seeAll-btn-container{
+    text-align: center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 570px){
+    .jobs-container{
+        grid-template-columns: 1fr;
+    }
 }

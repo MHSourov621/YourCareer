@@ -33,3 +33,19 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 570px){
+    .header-section{
+        width: 100%;
+        display: block;
+    }
+
+    .link-div a{
+        margin-right: 15px;
+        font-size: 20px;
+    }
+
+    .header-btn{
+        display: none;
+    }
+}

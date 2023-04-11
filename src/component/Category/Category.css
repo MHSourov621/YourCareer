@@ -21,3 +21,13 @@
     gap: 50px;
     margin-bottom: 100px;
 }
+
+@media screen and (max-width: 570px){
+    .card-container{
+        grid-template-columns: 1fr;
+        width: 99%;
+    }
+    .section-title{
+        width: 100%;
+    }
+}

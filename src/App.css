@@ -5,3 +5,9 @@
     margin: auto;
     font-family: 'Manrope', sans-serif;
 }
+
+@media screen and (max-width: 570px){
+    #root{
+        width: 100%;
+    }
+}

@@ -28,3 +28,16 @@
     width: 150px;
     height: 55px;
 }
+
+@media screen and (max-width: 570px){
+    .banner-container{
+        display: block;
+    }
+
+    .banner-details, .banner-img>img{
+        width: 99%;
+        margin-bottom: 20px;
+    }
+
+
+}
