@@ -4,7 +4,7 @@ import "./Jobs.css"
 
 const Jobs = ({ jobs }) => {
     const [product, setNewProduct] = useState(jobs.slice(0, -2));
-    console.log(product);
+    // console.log(product);
 
     const handleSeeAllBtn = () => {
         setNewProduct(jobs)

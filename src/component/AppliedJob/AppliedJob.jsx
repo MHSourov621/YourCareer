@@ -14,16 +14,31 @@ const AppliedJob = () => {
             selectedJob.push(foundJobs);
         }
     }
+    const [show, setShow] = useState(selectedJob);
 
-    // console.log(selectedJob);
+    const handleOnsite = () => {
+        const onsite = selectedJob.filter(sh => sh.type == "Onsite");
+        setShow(onsite)
+    }
+    
+    const handleRemote = () => {
+        const remote = selectedJob.filter(sh => sh.type == "Remote");
+        setShow(remote)
+    }
+
+    // console.log(selectedJob); 
     return (
         <div>
             <div className='applied-banner'>
                 <h2>Applied Jobs</h2>
             </div>
+            <div className='filter-btn-container'>
+                <button onClick={handleOnsite} className='btn filter-btn'>Onsite</button>
+                <button onClick={handleRemote} className='btn filter-btn'>Remote</button>
+            </div>
             <div>
                 {
-                    selectedJob.map(job => <Apply
+                    show.map(job => <Apply
                         key={job.id}
                         applyJob={job}
                     ></Apply>)

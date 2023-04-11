@@ -4,7 +4,7 @@ const Blog = () => {
     return (
         <div>
             <h3>1: When should you use context API?</h3>
-            <p>Ans: Context API is used when some data need to be accessible by many components at different nesting pages.</p>
+            <p>Ans: Context API is used when some data need to be accessible by many components at different nesting pages. When we need a data in many component ans its painful for send data by props, then we use context API. Then don't need to drilling props.</p>
 
             <h3>2: What is a custom hook?</h3>
             <p>Ans: A custom hook is a special JavaScript function whose name starts with "use" and can be used to call other hooks like useState, useEffect, useMemo etc</p>

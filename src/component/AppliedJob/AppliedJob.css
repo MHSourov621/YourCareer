@@ -10,3 +10,14 @@
     font-size: 30px;
     font-weight: 800;
 }
+
+.filter-btn-container{
+    margin-bottom: 30px;
+    text-align: end;
+}
+
+.filter-btn{
+    width: 100px;
+    height: 45px;
+    margin-left: 30px;
+}
