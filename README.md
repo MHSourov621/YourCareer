@@ -6,4 +6,4 @@
 * You can show your previous applied jon in Applied Job page.
 * You can view your assignment number in Statistics page.
 
-### Live Link : https://ephemeral-faun-c9634b.netlify.app/
+### Live Link : https://your-career-fmkdv2sxf-mhsourov621.vercel.app/
